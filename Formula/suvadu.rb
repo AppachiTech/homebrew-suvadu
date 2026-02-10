@@ -1,9 +1,9 @@
 class Suvadu < Formula
   desc "Never lose your trace. A high-performance, database-backed shell history."
   homepage "https://www.appachi.tech/downloads/suvadu/"
-  version "0.0.10"
-  url "https://downloads.appachi.tech/macos/archive/suv-macos-v0.0.10.tar.gz"
-  sha256 "494b85813035c49af02b88225f7df8df94613d6651b175f52b93eee91a20be7d"
+  version "0.0.11"
+  url "https://downloads.appachi.tech/macos/archive/suv-macos-v0.0.11.tar.gz"
+  sha256 "5a2916fcfc94659536fb01bd6266f2ac6ec1b22d6ffdfa43921bdf7da75368ed"
 
   def install
     bin.install "suv"
