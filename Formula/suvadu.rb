@@ -1,25 +1,25 @@
 class Suvadu < Formula
   desc "Total recall for your terminal."
   homepage "https://www.appachi.tech/suvadu/"
-  version "0.3.7"
+  version "0.4.0"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://downloads.appachi.tech/macos/archive/suv-macos-v0.3.7.tar.gz"
-      sha256 "7438bf2948ac470ae8783007d269c6f0ac4c08e6ea7df09cdc7da6a60af61f0e"
+      url "https://downloads.appachi.tech/macos/archive/suv-macos-v0.4.0.tar.gz"
+      sha256 "0e17741b70d07d52419eebbb7f6a9e1d60b598a4922b07ba414dc349f80e0d46"
     else
-      url "https://downloads.appachi.tech/macos/archive/suv-macos-x86_64-v0.3.7.tar.gz"
-      sha256 "6a2f9842c074ebaeabfff028db18cf221ff83a0134dc6e3075eb44eec1576638"
+      url "https://downloads.appachi.tech/macos/archive/suv-macos-x86_64-v0.4.0.tar.gz"
+      sha256 "623ca753f8f39e0ead9c3b13d75c8be2c95d788a9dd9fb66c5143ff04a4a38b1"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://downloads.appachi.tech/linux/archive/suv-linux-aarch64-v0.3.7.tar.gz"
-      sha256 "55700c897cf18b8c7003c7c05093e3730b647f10baa1a643c8921d22a8fc5183"
+      url "https://downloads.appachi.tech/linux/archive/suv-linux-aarch64-v0.4.0.tar.gz"
+      sha256 "940210a0f5c7b52c5f428c7a701c41cdcfc3372f73ab6bf2bc4d4acbd1216981"
     else
-      url "https://downloads.appachi.tech/linux/archive/suv-linux-v0.3.7.tar.gz"
-      sha256 "905dd0a475ab7e08e8f8b184a9eeba19dc001831cf4402dc0aa2af2ae58b97c8"
+      url "https://downloads.appachi.tech/linux/archive/suv-linux-v0.4.0.tar.gz"
+      sha256 "a429991c8c9c467a8606962879e3876f6257783a282efc36d22ecd7592b59161"
     end
   end
 
