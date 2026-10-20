@@ -1,25 +1,25 @@
 class Suvadu < Formula
-  desc "Total recall for your terminal."
+  desc "Shell history search with AI agent command tracking and an MCP server"
   homepage "https://suvadu.sh/"
-  version "0.5.1"
+  version "0.5.2"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://downloads.appachi.tech/macos/archive/suv-macos-v0.5.1.tar.gz"
-      sha256 "bedf1f295a5babad5170dc195a288b15c97513efb988f43267fd58362607d200"
+      url "https://downloads.appachi.tech/macos/archive/suv-macos-v0.5.2.tar.gz"
+      sha256 "a880bb8ea80d4ab37a26f52da2e849dadcd2dccd26a2eaac4c072f7cde55f4c3"
     else
-      url "https://downloads.appachi.tech/macos/archive/suv-macos-x86_64-v0.5.1.tar.gz"
-      sha256 "c02ec1d761a6f5579bec79fdb2de8216b121ac09a07ff163e60a295a386d8f0f"
+      url "https://downloads.appachi.tech/macos/archive/suv-macos-x86_64-v0.5.2.tar.gz"
+      sha256 "4e7f35387b7893d5d88aa2ab59ef0e524001a501e21bc79a3accb7061f100457"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://downloads.appachi.tech/linux/archive/suv-linux-aarch64-v0.5.1.tar.gz"
-      sha256 "5409713d89f27ded70e2f4a91ad04678c37d6e3a77dd09c4e30cccc1526982b2"
+      url "https://downloads.appachi.tech/linux/archive/suv-linux-aarch64-v0.5.2.tar.gz"
+      sha256 "f9b8e7071e3391d79f6e16ec9b20991d3eef586eb8248e11838025751bc761fc"
     else
-      url "https://downloads.appachi.tech/linux/archive/suv-linux-v0.5.1.tar.gz"
-      sha256 "b4f22afebc63ca67409d76fd1ab3ed0319c7a739b38276a41514f4f35e5677a5"
+      url "https://downloads.appachi.tech/linux/archive/suv-linux-v0.5.2.tar.gz"
+      sha256 "8b9d011cf9b0f818b76db698b13abeaa5c483f1e435b0c7e3b9e04d9485708f5"
     end
   end
 
